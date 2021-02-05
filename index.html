@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Module</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header" id="head">Quiz</div>
+            <div class="body">
+               <div id="h"></div>
+               <div id="content">
+                <form id="test">
+
+                <div id="question">A complete graph can have</div><br>
+
+                <input type="radio" id="radio0" name="option" value="n^2        spanning tree"><span id="option0">n^2 spanning tree</span><br>    
+
+                <input type="radio" id="radio1" name="option" value="n^n       spanning tree"><span id="option1">n^n spanning tree</span><br>    
+
+                <input type="radio" id="radio2" name="option" value="2n        spanning tree"><span id="option2">2n spanning tree</span><br>    
+
+                <input type="radio" id="radio3" name="option" value="n^(n-2)   spanning tree"><span id="option3">n^(n-2) spanning tree</span>
+                <br><br>   
+
+                <div id="submit">
+                    <button class="btn btn-warning" onclick="check()">Submit
+                    </button>
+                </div>
+                </form>  
+                <div id="ans"></div>     
+               </div> 
+               <div id="finish"></div>
+            </div>
+        </div>
+
+
+       <script type="text/javascript" src="index.js"></script>
+
+    </body>        
+     </html>
